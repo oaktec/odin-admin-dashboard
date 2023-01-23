@@ -56,6 +56,31 @@
     grid-area: 1 / 2 / 2 / 3;
 }
 
+.top-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    gap: 32px;
+    padding: 16px 48px;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.top-container input {
+    border: none;
+    background-color: #cbd5e1;
+    height: 30px;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.top-container img {
+    width: 40px;
+}
+
+.top-container .profile-pic {
+    width: 75px;
+}
+
 .content {
     background-color: #cbd5e1;
     grid-area: 2 / 2 / 3 / 3;
