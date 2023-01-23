@@ -25,9 +25,13 @@
     padding: 16px;
 }
 
+.sidebar ul img {
+    width: 40px;
+}
+
 .sidebar .logo {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: bolder;
     display: grid;
     grid-auto-flow: column;
     align-items: center;
@@ -35,15 +39,16 @@
 }
 
 .sidebar a {
-    font-size: 1.5rem;
-    padding: 6px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 8px;
     text-decoration-color: white;
     color:inherit;
     display: grid;
     grid-auto-flow: column;
     align-items: center;
     justify-content: start;
-    gap: 16px
+    gap: 16px;
 }
 
 .header {
