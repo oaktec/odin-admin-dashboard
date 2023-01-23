@@ -23,7 +23,7 @@
     place-content: start;
     gap: 64px;
     padding: 16px;
-    padding-right: 64px;
+    padding-right: 32px;
 }
 
 .sidebar ul img {
@@ -141,7 +141,7 @@
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: minmax(50%,1fr) 1fr;
+    grid-template-rows: clamp(auto, 50%,1fr) 1fr;
     padding-bottom: 64px;
 }
 
@@ -206,7 +206,7 @@
     padding: 32px;
     border-radius: 10px;
     margin-top: 8px;
-    gap: 16px;
+    gap:4px;
 }
 
 .line {
@@ -214,15 +214,12 @@
     border-bottom: 1px solid gray;
 }
 
-.announcement {
-}
-
 .announcement-title {
     font-weight: bold;
 }
 
 .announcement-desc {
-    text-overflow: ellipsis;
+    font-size: 0.9rem;
 }
 
 .trending-container {
